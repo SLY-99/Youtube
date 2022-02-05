@@ -1,0 +1,109 @@
+.intro{
+    
+    &__wrapper{
+        padding-right: 45px;
+        padding-bottom: 60px;
+        position: relative;
+    }
+    &__photo{
+        width: 1200px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    &__img{
+        width: 60px;
+    }
+    &__mini-box{
+        display: flex;
+        align-items: center;
+    }
+    &__text-box{
+        margin-left: 12px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 33px;
+        color: #fff;
+        max-width: 400px;
+        margin: 0px;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #C2C2C2;
+        margin: 0px;
+        margin-top: 3px;
+    }
+    &__list{
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    &__span{
+        color: red;
+        border-bottom: 2px solid red;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #fff;
+    }
+    &__box2{
+        display: flex;
+        max-width: 850px;
+        margin-top: 50px;
+    }
+    &__image{
+        width: 400px;
+        height: 200px;
+    }
+    &__text-box2{
+        margin-left: 32px;
+    }
+    &__text2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+        opacity: 0.6;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    &__list2{
+        padding: 0px;
+        margin: 0px;
+    }
+    &__img2{
+        width: 40px;
+        margin-right: 15px;
+    }
+    &__item2{
+        margin-top: 20px;
+    }
+    &__link2{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration: none;
+    }
+    &__aside{
+        position: absolute;
+        right: 70px;
+        bottom: 120px;
+    }
+}

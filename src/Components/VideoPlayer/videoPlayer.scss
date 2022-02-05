@@ -1,0 +1,145 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #17171E;
+    overflow-x: hidden;
+}
+.videoPlayer{
+    
+    
+    &__videoBox{
+        margin-left: 75px;
+        position: relative;
+    }
+    &__img{
+        width: 1030px;
+        height: 500px;
+        border-radius: 14px;
+    }
+    &__wrapper2{
+        margin-left: 75px;
+    }
+    &__box{
+        width: 1030px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+        padding-bottom: 15px;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        color: #fff;
+        margin-top: 15px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #C2C2C2;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    &__list{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+    &__item{
+        width: 80px;
+        height: 35px;
+        background-color: #2E2E34;
+        color: #fff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    &__image{
+        margin-right: 5px;
+    }
+    &__dot{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    &__playerBox{
+        width: 980px;
+        position: absolute;
+        bottom: 15px;
+        margin-left: 25px;
+    }
+    &__textBox{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 5px;
+    }
+    &__time{
+        margin: 0px;
+        color: #fff;
+    }
+    &__bar{
+        width: 980px;
+    }
+    &__iconBox{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__miniBox{
+        padding: 0px 10px;
+        margin-top: 5px;
+    }
+    &__icons{
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    &__icons2{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    &__wrapper3{
+        margin-left: 75px;
+        margin-top: 35px;
+        padding-bottom: 50px;
+        display: flex;
+    }
+    &__text-box{
+        margin-left: 10px;
+    }
+    &__photo{
+        width: 60px;
+    }
+    &__title2{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        color: #fff;
+        margin: 0px;
+    }
+    &__text2{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: rgb(129, 129, 129);
+    }
+    &__link{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-decoration: none;
+    }
+    &__navLink{
+        text-decoration: none;
+    }
+}

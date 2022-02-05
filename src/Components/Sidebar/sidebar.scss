@@ -1,0 +1,94 @@
+.sidebar{
+    
+    &__home{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: red;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    &__list{
+        position: relative;
+        margin-left: 10px;
+    }
+    &__item{
+        padding-left: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    &__link{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #7E7E82;
+    }
+    &__link-red{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: red;
+    }
+    &__img{
+        position: absolute;
+        left: 20px;
+        margin-top: 2px;
+    }
+    &__down{
+        position: absolute;
+        left: 20px;
+        margin-top: 7px;
+    }
+    &__list2{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    &__list3{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #fff;
+        margin-left: -10px;
+        margin-bottom: 25px;
+    }
+    &__item2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #7E7E82;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    &__setting{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #7E7E82;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    &__img2{
+        position: absolute;
+        left: 20px;
+        margin-top: -5px;
+    }
+    &__navLink{
+        text-decoration: none;
+    }
+}

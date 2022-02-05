@@ -1,0 +1,21 @@
+.main{
+    
+    &__wraper{
+        position: relative;
+    }
+    &__btn{
+        width: 150px;
+        height: 40px;
+        background: #FF0000;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 282px;
+        right: 210px;
+    }
+}
