@@ -34,7 +34,7 @@ function App() {
     <>
     <div className='videoPlayer__wrapper'>
         <div className='videoPlayer__videoBox'>
-            <img className='videoPlayer__img' src={images.url? images.url : VideosImg} alt="img" />
+            <img className='videoPlayer__img' width={1030} height={500} src={images.url? images.url : VideosImg} alt="img" />
 
             <div className='videoPlayer__playerBox'>
                 <div className='videoPlayer__textBox'>
