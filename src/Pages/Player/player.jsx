@@ -10,7 +10,7 @@ function Player() {
        <div className="row">
          <div className="col-12"><Header/></div>
          <div className="col-9"><VideoPlayer/></div>
-         <div className="col-3"><Aside width={310} height={190}/></div>
+         <div className="col-3"><Aside width={280} height={170}/></div>
        </div>
     </>
   );

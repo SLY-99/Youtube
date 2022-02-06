@@ -34,7 +34,7 @@ function Aside({width , height}) {
           <div className='aside__wrapper2'>
           {images.length > 0 && images.map((photo) => (
                         <React.Fragment key = {photo.id}>
-                          <NavLink to={"/player/"+ photo.id} onClick={()=> window.location.href=`/player/${photo.id}`} className="aside__navLink">
+                          <NavLink to={"/player/"+ photo.id} className="aside__navLink">
                         <div className='aside__box2'>
                           <img className='aside__img2' src={photo.thumbnailUrl} width={width} height={height} alt="img" />
                           <h5 className='aside__title2'>{photo.title}</h5>
