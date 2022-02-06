@@ -37,8 +37,8 @@ function Login() {
             <button type='submit' className='login__btn'>Log In</button>
         </form>
         <div className='login__link-box'>
-            <a className='login__link' href="#">Forgot password?</a>
-            <a className='login__link' href="#">Sign up to Youtube</a>
+            <p className='login__link'>Forgot password?</p>
+            <p className='login__link'>Sign up to Youtube</p>
         </div>
         </div>
     </div>

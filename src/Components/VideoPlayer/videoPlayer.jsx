@@ -27,7 +27,7 @@ function App() {
         .then((data) => {
           setImages(data);
         });
-    }, []);
+    }, [id]);
 
 
   return (
