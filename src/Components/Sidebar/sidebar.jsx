@@ -28,38 +28,38 @@ function App() {
         <ul className='sidebar__list'>
             <li className='sidebar__item'>
                 <NavLink to={"/home"} className='sidebar__link-red'>Home</NavLink>
-                <img className='sidebar__img' src={Home} alt="Home" /></li>
+                <img className='sidebar__img-red' src={Home} alt="Home" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Trending</a>
+                <p className='sidebar__link'>Trending</p>
                 <img className='sidebar__img' src={Trending} alt="Trending" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Subscriptions</a>
+                <p className='sidebar__link'>Subscriptions</p>
                 <img className='sidebar__img' src={Subscription} alt="Subscription" /></li>
         </ul>
         <ul className='sidebar__list2'>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Library</a>
+                <p className='sidebar__link'>Library</p>
                 <img className='sidebar__img' src={Library} alt="Library" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">History</a>
+                <p className='sidebar__link'>History</p>
                 <img className='sidebar__img' src={History} alt="History" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Watch later</a>
+                <p className='sidebar__link'>Watch later</p>
                 <img className='sidebar__img' src={Watch} alt="Watch" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Favourites</a>
+                <p className='sidebar__link'>Favourites</p>
                 <img className='sidebar__img' src={Favourite} alt="Favourite" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Liked Videos</a>
+                <p className='sidebar__link'>Liked Videos</p>
                 <img className='sidebar__img' src={Heart} alt="Heart" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Music</a>
+                <p className='sidebar__link'>Music</p>
                 <img className='sidebar__img' src={Music} alt="Music" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Games</a>
+                <p className='sidebar__link'>Games</p>
                 <img className='sidebar__img' src={Games} alt="Games" /></li>
             <li className='sidebar__item'>
-                <a className='sidebar__link' href="#">Show more</a>
+                <p className='sidebar__link'>Show more</p>
                 <img className='sidebar__down' src={Down} alt="Down" /></li>
         </ul>
         </nav>

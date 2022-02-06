@@ -60,6 +60,8 @@
         font-size: 18px;
         line-height: 23px;
         color: #fff;
+        margin: 0px;
+        cursor: pointer;
     }
     &__box2{
         display: flex;
@@ -99,7 +101,9 @@
         font-size: 18px;
         line-height: 23px;
         color: #fff;
+        margin: 0px;
         text-decoration: none;
+        cursor: pointer;
     }
     &__aside{
         position: absolute;

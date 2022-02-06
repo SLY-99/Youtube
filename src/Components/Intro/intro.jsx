@@ -29,12 +29,12 @@ function Intro() {
         <nav>
             <ul className='intro__list'>
                 <li className='intro__item'><NavLink to={"/home"} className='intro__link'> <span className='intro__span'>Home</span></NavLink></li>
-                <li className='intro__item'><a className='intro__link' href="#">Videos</a></li>
-                <li className='intro__item'><a className='intro__link' href="#">Playlists</a></li>
-                <li className='intro__item'><a className='intro__link' href="#">Channels</a></li>
-                <li className='intro__item'><a className='intro__link' href="#">Discussion</a></li>
-                <li className='intro__item'><a className='intro__link' href="#">About</a></li>
-                <a href="#"><img src={Search} alt="Search" /></a>
+                <li className='intro__item'><p className='intro__link'>Videos</p></li>
+                <li className='intro__item'><p className='intro__link'>Playlists</p></li>
+                <li className='intro__item'><p className='intro__link'>Channels</p></li>
+                <li className='intro__item'><p className='intro__link'>Discussion</p></li>
+                <li className='intro__item'><p className='intro__link'>About</p></li>
+                <img src={Search} alt="Search" />
             </ul>
         </nav>
         <div className='intro__box2'>
@@ -50,9 +50,9 @@ function Intro() {
         <aside className='intro__aside'>
             <p className='intro__text2'>Recommended channel</p>
             <ul className='intro__list2'>
-                <li className='intro__item2'> <a className='intro__link2' href="#"><img className='intro__img2' src={Flora} alt="Flora" />Flora Benson</a></li>
-                <li className='intro__item2'> <a className='intro__link2' href="#"><img className='intro__img2' src={Violet} alt="Violet" />Violet Cobb</a></li>
-                <li className='intro__item2'> <a className='intro__link2' href="#"><img className='intro__img2' src={Philip} alt="Philip" />Phillip Mullins</a></li>
+                <li className='intro__item2'> <p className='intro__link2'><img className='intro__img2' src={Flora} alt="Flora" />Flora Benson</p></li>
+                <li className='intro__item2'> <p className='intro__link2'><img className='intro__img2' src={Violet} alt="Violet" />Violet Cobb</p></li>
+                <li className='intro__item2'> <p className='intro__link2'><img className='intro__img2' src={Philip} alt="Philip" />Phillip Mullins</p></li>
             </ul>
         </aside>
     </div>

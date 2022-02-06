@@ -25,6 +25,8 @@
         font-size: 16px;
         line-height: 20px;
         color: #7E7E82;
+        margin: 0px;
+        cursor: pointer;
     }
     &__link-red{
         text-decoration: none;
@@ -37,12 +39,17 @@
     &__img{
         position: absolute;
         left: 20px;
+        margin-top: -20px;
+    }
+    &__img-red{
+        position: absolute;
+        left: 20px;
         margin-top: 2px;
     }
     &__down{
         position: absolute;
         left: 20px;
-        margin-top: 7px;
+        margin-top: -15px;
     }
     &__list2{
         position: relative;

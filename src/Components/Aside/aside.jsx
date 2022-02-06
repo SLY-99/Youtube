@@ -28,7 +28,7 @@ function Aside({width , height}) {
           <div className='aside__box'>
             <div className='aside__mini-box'>
               <h4 className='aside__title'>Next</h4>
-              <a className='aside__link'>autoplay<img className='aside__img' src={AutoPlay} alt="AutoPlay"/></a>
+              <p className='aside__link'>autoplay<img className='aside__img' src={AutoPlay} alt="AutoPlay"/></p>
             </div>
           </div>
           <div className='aside__wrapper2'>
