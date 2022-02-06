@@ -18,15 +18,15 @@
         position: relative;
     }
     &__img{
-        width: 1030px;
-        height: 500px;
+        width: 920px;
+        height: 450px;
         border-radius: 14px;
     }
     &__wrapper2{
         margin-left: 75px;
     }
     &__box{
-        width: 1030px;
+        width: 910px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -35,18 +35,19 @@
     }
     &__title{
         font-weight: bold;
-        font-size: 36px;
+        font-size: 32px;
         line-height: 45px;
         color: #fff;
         margin-top: 15px;
     }
     &__text{
         font-weight: normal;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 25px;
         color: #C2C2C2;
         margin: 0px;
         margin-bottom: 15px;
+        max-width: 700px;
     }
     &__list{
         display: flex;
@@ -79,6 +80,7 @@
         margin-left: 25px;
     }
     &__textBox{
+        width: 870px;
         display: flex;
         justify-content: space-between;
         padding: 0px 5px;
@@ -88,9 +90,10 @@
         color: #fff;
     }
     &__bar{
-        width: 980px;
+        width: 870px;
     }
     &__iconBox{
+        width: 870px;
         display: flex;
         justify-content: space-between;
     }
@@ -99,10 +102,12 @@
         margin-top: 5px;
     }
     &__icons{
+        width: 25px;
         margin-right: 25px;
         cursor: pointer;
     }
     &__icons2{
+        width: 25px;
         margin-left: 20px;
         cursor: pointer;
     }

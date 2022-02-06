@@ -57,7 +57,7 @@ function Intro() {
         </aside>
     </div>
 
-    <Videos title={"Margaret Phelps videos"} width={250} height={150}/>
+    <Videos title={"Margaret Phelps videos"} width={230} height={130}/>
     </>
   );
 }

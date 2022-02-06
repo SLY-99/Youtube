@@ -46,7 +46,7 @@ function App() {
                     <div className='videoPlayer__miniBox'>
                         <img className='videoPlayer__icons' src={Pause} alt="Pause" />
                         <img className='videoPlayer__icons' src={Next} alt="Next" />
-                        <img className='videoPlayer__icons' src={Volume} alt="Volume" />
+                        <img  src={Volume} alt="Volume" />
                     </div>
                     <div className='videoPlayer__miniBox'>
                         <img className='videoPlayer__icons2' src={Subtitles} alt="Subtitles" />
